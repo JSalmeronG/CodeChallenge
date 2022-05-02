@@ -43,16 +43,5 @@
     ],
     "previousCourses": 5,
     "haveCertification": true
-  },
-  {
-    "id": "6264d5d8dd1a0be4e249c662",
-    "name": "Phillips",
-    "email": "Camacho@visualpartnership.xyz",
-    "credits": 973,
-    "enrollments": [
-      "Visual Thinking Intermedio"
-    ],
-    "previousCourses": 8,
-    "haveCertification": false
-  },
+  }
 ]
