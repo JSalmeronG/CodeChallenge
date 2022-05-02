@@ -1,0 +1,26 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "Code Challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeSalmeronG/CodeChallenge.git"
+  },
+  "author": "Jorge Salmerón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeSalmeronG/CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/JorgeSalmeronG/CodeChallenge#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
