@@ -10,7 +10,7 @@ describe("Pruebas unitarias para clase StudentService", () => {
 	});
 	test("2) Prueba de Método getStudentsFilteredByCerts", () => {
 		const result = StudentService.getStudentsFilteredByCerts(path)
-		expect(result.length).toBe(4)
+		expect(result[0]).toEqual("Todd@visualpartnership.xyz")
 	});
 
 	test("3) Prueba de Método getStudentsFilteredByCredits", () => {

@@ -9,7 +9,7 @@ describe("Pruebas de unidad para clase StudentController",()=> {
 	});
 	test("2) Prueba de método getStudentsFilteredByCerts", ()=> {
 		const result = StudentController.getStudentsWithCerts(path)
-		expect(result.length).toBe(4)
+		expect(result[0]).toEqual("Todd@visualpartnership.xyz")
 	});
 	test("3) Prueba de método getStudentsFilteredByCredits",()=> {
 		const result = StudentController.getStudentsWithNCredits(path,500)
